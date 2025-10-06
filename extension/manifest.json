@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Veritas — Misinformation Checker",
+  "version": "0.1.0",
+  "description": "Highlight agreement/contradictions and manipulative framing across sources in one click.",
+
+  "action": {
+    "default_title": "Analyze this page with Veritas",
+    "default_popup": "src/popup/index.html"
+  },
+
+  "background": {
+    "service_worker": "src/background.js"
+  },
+
+  "permissions": ["activeTab", "scripting", "storage", "tabs"],
+  "host_permissions": [
+    "<all_urls>",
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["src/content_script.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}
