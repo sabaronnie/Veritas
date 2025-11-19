@@ -1,0 +1,8 @@
+veritas-env/
+Dependencies
+notes.txt
+data/
+models/
+*.pyc
+__pycache__/
+lbc_article_urls.txt

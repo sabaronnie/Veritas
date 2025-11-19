@@ -1,4 +1,9 @@
-body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 0; width: 380px; }
+body { 
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; 
+    margin: 0; 
+    width: 380px; 
+    border-radius: 16px;
+}
 header { display: flex; align-items: center; gap: 8px; padding: 10px 12px; border-bottom: 1px solid #eee; }
 #analyze { margin: 12px; padding: 10px 12px; border: none; border-radius: 10px; cursor: pointer; }
 #status { padding: 0 12px; color: #666; }

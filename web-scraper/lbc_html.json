@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+
+</title></head>
+<body>
+    <form method="post" action="./loadmore_latestnews.aspx?loadindex=1852&amp;lang=en&amp;rnd=1720&amp;mostreadperiod=daily&amp;rownumber=8" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTY3ODE1MTMzZGTa76i62hBAvSBKoU+0SBfmSoZFsHw3gpZUIEpp7zjceQ==" />
+</div>
+
+
+<script src="/ScriptResource.axd?d=QXRYVKAt6eg6q3qDE7hPy-pVN3cNJrnlrTb1wL1GGsQu8VIDxNzrGe6-tHQXYYGLi410BlVomyTi5XOVA2SYW1otu8wGg2YfRRSHRgZ6alXFMsYVJhUfkKbqLuPLwYCMh0aRZEB_YveDeEs2RyCenDcbhL57xTyY1NzhjH8DLJpT-ieGEOcF3OADVyhzE8MM0&amp;t=2a9d95e3" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+       
+<div id="divLoadMoreContainerFirstStartHere"><div class="row row-remove-from__loadmore MyMainDiv1430 u-margin0">
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 padding-t-xl-100 padding-b-xl-30 padding-t-xs-80 padding-b-xs-0 floatL u-padding0" data-classes="padding-t-xl-100 padding-b-xl-30 padding-t-xs-80 padding-b-xs-0">
+	</div>
+</div>
+<div class="row row-remove-from__loadmore MyMainDivFullWidth bg-color__light-color-lotion u-margin0" data-classes="bg-color__light-color-lotion">
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 floatL u-padding0">
+		<div class="row MyMainDiv1470 row-remove-from__loadmore u-margin0">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 padding-r-xs-15 padding-l-xs-15 padding-t-xs-10 padding-b-xs-10 floatL u-padding0" data-classes="padding-r-xs-15 padding-l-xs-15 padding-t-xs-10 padding-b-xs-10">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row MyMainDivFullWidth row-remove-from__loadmore u-margin0">
+	<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 Padding-top-lg-30 Padding-bottom-lg-30 d-flex justify-content-center align-items-center floatL u-padding0" data-classes="d-flex justify-content-center align-items-center ">
+		<!-- Control Name: Banner -->
+
+<div id="ctl00_MainContent_BannersControl_Full67_MainBannerDivSpace" class="MainControlDiv MainControlDivOnMobile BannersControl_FullMainDiv Space3 ">
+
+<div class="clearfix"></div>
+<div class="RotatorBAnners">
+<input name="ctl00$MainContent$BannersControl_Full67$HiddenBannerName" type="hidden" id="ctl00_MainContent_BannersControl_Full67_HiddenBannerName" value="Latest_news_LB_1" />
+<input name="ctl00$MainContent$BannersControl_Full67$HiddenBannerID" type="hidden" id="ctl00_MainContent_BannersControl_Full67_HiddenBannerID" value="15," />
+<input name="ctl00$MainContent$BannersControl_Full67$HiddenPositionID" type="hidden" id="ctl00_MainContent_BannersControl_Full67_HiddenPositionID" value="16" />
+<input name="ctl00$MainContent$BannersControl_Full67$HiddenTag" type="hidden" id="ctl00_MainContent_BannersControl_Full67_HiddenTag" value="latestnews" />
+<input name="ctl00$MainContent$BannersControl_Full67$HiddenPositionType" type="hidden" id="ctl00_MainContent_BannersControl_Full67_HiddenPositionType" class="HiddenPositionType" value="List" />
+<input name="ctl00$MainContent$BannersControl_Full67$HiddenDefaultHeight" type="hidden" id="ctl00_MainContent_BannersControl_Full67_HiddenDefaultHeight" class="HiddenDefaultHeight" />
+<div class="swiper-container BannerRotator-SwiperContainer">
+<div class="" >
+
+<style>
+.ad_unit_height15{height:250px}
+
+@media(max-width:1200px) {
+.ad_unit_height15{height:90px}
+}
+@media(max-width:768px) {
+.ad_unit_height15{height:100px}
+}
+</style>
+<div class=' ' >
+<div class="u-width100 FullWidthOK BannersFull BannerControl BannerContainer textalignC">
+<div class="u-relative textalignC">
+<input type="hidden" value='250' class="HiddenHeight" />
+<input type="hidden" value='970' class="HiddenWidth" />
+<input type="hidden" value='#FFFFFF' class="HiddenBGcolor" />
+<input type="hidden" value='1' class="HiddenIsFull" />
+
+
+<div class="Bannermb22">
+</div>
+<div id="ctl00_MainContent_BannersControl_Full67_rptBanners_ctl00_scriptDiv" class="ScriptDiv BannersMain u-marginAuto ad_unit_height15">
+<div class="textalignC u-relative u-marginAuto d-table w-100 h-100">
+<div class="textalignC u-relative u-marginAuto d-table-cell align-middle">
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/22102825221/Latest_News/Latest_news_LB_1', [[728, 90], [320, 100], [970, 250]], 'div-gpt-ad-1673029054652-01852').setTargeting('Category', ['latestnews']).setTargeting('LANG', ['en']).addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+<!-- /22102825221/Latest_News/Latest_news_LB_1 -->
+<div id='div-gpt-ad-1673029054652-01852' style='min-width: 320px; min-height: 90px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1673029054652-01852'); });
+  </script>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<input name="ctl00$MainContent$BannersControl_Full67$hiddenscreenwidth" type="hidden" id="ctl00_MainContent_BannersControl_Full67_hiddenscreenwidth" value="640" />
+
+
+	</div>
+</div>
+<div class="row MyMainDivFullWidth row-remove-from__loadmore u-margin0">
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 padding-t-xs-40 floatL u-padding0" data-classes="padding-t-xs-40">
+	</div>
+</div>
+<div class="row row-reference-fixed MyMainDiv1470 u-margin0">
+	<div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12 padding-r-xs-15 padding-l-xs-15 floatL u-padding0" data-classes="padding-r-xs-15 padding-l-xs-15">
+		<!-- Control Name: Cards -->
+	</div>
+	<div class="column-fixed col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 floatL u-padding0">
+		<div class="allow-fixed">
+			<div class="row row-remove-from__loadmore MyMainDivFullWidth padding-t-xl-0 padding-t-xs-60 u-margin0" data-classes="padding-t-xl-0 padding-t-xs-60">
+				<div class="col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12 padding-r-xs-15 padding-l-xs-15 padding-b-xs-60 floatL u-padding0" data-classes="padding-r-xs-15 padding-l-xs-15 padding-b-xs-60">
+				</div>
+				<div class="col-xl-12 col-lg-6 col-md-6 col-sm-12 col-12 padding-b-xs-60 floatL u-padding0" data-classes="padding-b-xs-60">
+					<div class="row row-remove-from__loadmore MyMainDivFullWidth u-margin0">
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 padding-r-xs-15 padding-l-xs-15 floatL u-padding0" data-classes="padding-r-xs-15 padding-l-xs-15">
+						</div>
+						<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 Padding-top-lg-30 Padding-bottom-lg-30 d-flex justify-content-center align-items-center floatL u-padding0" data-classes="d-flex justify-content-center align-items-center ">
+							<!-- Control Name: Banner1 -->
+
+<div id="ctl00_MainContent_BannersControl_Full72_MainBannerDivSpace" class="MainControlDiv MainControlDivOnMobile BannersControl_FullMainDiv Space3 ">
+<div id="ctl00_MainContent_BannersControl_Full72_DivShow" class="BannersFullShowContainer u-relative textalignC pdB10">
+<div id="ctl00_MainContent_BannersControl_Full72_BannersFullShowTitle" class="BannersFullShowTitle" style="background-color:var(--light-color-white);">
+
+
+</div>
+
+</div>
+<div class="clearfix"></div>
+<div class="RotatorBAnners">
+<input name="ctl00$MainContent$BannersControl_Full72$HiddenBannerName" type="hidden" id="ctl00_MainContent_BannersControl_Full72_HiddenBannerName" value="Latest_news_MPU_1" />
+<input name="ctl00$MainContent$BannersControl_Full72$HiddenBannerID" type="hidden" id="ctl00_MainContent_BannersControl_Full72_HiddenBannerID" value="16," />
+<input name="ctl00$MainContent$BannersControl_Full72$HiddenPositionID" type="hidden" id="ctl00_MainContent_BannersControl_Full72_HiddenPositionID" value="17" />
+<input name="ctl00$MainContent$BannersControl_Full72$HiddenTag" type="hidden" id="ctl00_MainContent_BannersControl_Full72_HiddenTag" value="latestnews" />
+<input name="ctl00$MainContent$BannersControl_Full72$HiddenPositionType" type="hidden" id="ctl00_MainContent_BannersControl_Full72_HiddenPositionType" class="HiddenPositionType" value="List" />
+<input name="ctl00$MainContent$BannersControl_Full72$HiddenDefaultHeight" type="hidden" id="ctl00_MainContent_BannersControl_Full72_HiddenDefaultHeight" class="HiddenDefaultHeight" />
+<div class="swiper-container BannerRotator-SwiperContainer">
+<div class="" >
+
+<style>
+.ad_unit_height16{height:600px}
+
+@media(max-width:1200px) {
+.ad_unit_height16{height:250px}
+}
+@media(max-width:768px) {
+.ad_unit_height16{height:250px}
+}
+</style>
+<div class=' ' >
+<div class="u-width100 FullWidthOK BannersFull BannerControl BannerContainer textalignC">
+<div class="u-relative textalignC">
+<input type="hidden" value='600' class="HiddenHeight" />
+<input type="hidden" value='300' class="HiddenWidth" />
+<input type="hidden" value='#FFFFFF' class="HiddenBGcolor" />
+<input type="hidden" value='1' class="HiddenIsFull" />
+
+
+<div class="Bannermb22">
+</div>
+<div id="ctl00_MainContent_BannersControl_Full72_rptBanners_ctl00_scriptDiv" class="ScriptDiv BannersMain u-marginAuto ad_unit_height16">
+<div class="textalignC u-relative u-marginAuto d-table w-100 h-100">
+<div class="textalignC u-relative u-marginAuto d-table-cell align-middle">
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/22102825221/Latest_News/Latest_news_MPU_1', [[300, 250], [300, 600]], 'div-gpt-ad-1673029133649-01852').setTargeting('Category', ['latestnews']).setTargeting('LANG', ['en']).addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+<!-- /22102825221/Latest_News/Latest_news_MPU_1 -->
+<div id='div-gpt-ad-1673029133649-01852' style='min-width: 300px; min-height: 250px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1673029133649-01852'); });
+  </script>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<input name="ctl00$MainContent$BannersControl_Full72$hiddenscreenwidth" type="hidden" id="ctl00_MainContent_BannersControl_Full72_hiddenscreenwidth" value="640" />
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row row-remove-from__loadmore MyMainDiv1470 u-margin0">
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 floatL u-padding0">
+	</div>
+</div>
+<div class="row MyMainDiv1430 row-remove-from__loadmore u-margin0">
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 floatL u-padding0">
+		<div class="row MyMainDivFullWidth row-remove-from__loadmore u-margin0">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 floatL u-padding0">
+				<div class="col-xs-12 ui-sortable-handle">
+				</div>
+			</div>
+		</div>
+		<div class="row MyMainDiv1430 u-margin0">
+			<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 Padding-top-lg-30 Padding-bottom-lg-30 d-flex justify-content-center align-items-center floatL u-padding0" data-classes="d-flex justify-content-center align-items-center ">
+				<!-- Control Name: Banner2 -->
+
+<div id="ctl00_MainContent_BannersControl_Full76_MainBannerDivSpace" class="MainControlDiv MainControlDivOnMobile BannersControl_FullMainDiv Space3 ">
+
+<div class="clearfix"></div>
+<div class="RotatorBAnners">
+<input name="ctl00$MainContent$BannersControl_Full76$HiddenBannerName" type="hidden" id="ctl00_MainContent_BannersControl_Full76_HiddenBannerName" value="Latest_news_LB_2" />
+<input name="ctl00$MainContent$BannersControl_Full76$HiddenBannerID" type="hidden" id="ctl00_MainContent_BannersControl_Full76_HiddenBannerID" value="17," />
+<input name="ctl00$MainContent$BannersControl_Full76$HiddenPositionID" type="hidden" id="ctl00_MainContent_BannersControl_Full76_HiddenPositionID" value="18" />
+<input name="ctl00$MainContent$BannersControl_Full76$HiddenTag" type="hidden" id="ctl00_MainContent_BannersControl_Full76_HiddenTag" value="latestnews" />
+<input name="ctl00$MainContent$BannersControl_Full76$HiddenPositionType" type="hidden" id="ctl00_MainContent_BannersControl_Full76_HiddenPositionType" class="HiddenPositionType" value="List" />
+<input name="ctl00$MainContent$BannersControl_Full76$HiddenDefaultHeight" type="hidden" id="ctl00_MainContent_BannersControl_Full76_HiddenDefaultHeight" class="HiddenDefaultHeight" />
+<div class="swiper-container BannerRotator-SwiperContainer">
+<div class="" >
+
+<style>
+.ad_unit_height17{height:250px}
+
+@media(max-width:1200px) {
+.ad_unit_height17{height:90px}
+}
+@media(max-width:768px) {
+.ad_unit_height17{height:100px}
+}
+</style>
+<div class=' ' >
+<div class="u-width100 FullWidthOK BannersFull BannerControl BannerContainer textalignC">
+<div class="u-relative textalignC">
+<input type="hidden" value='250' class="HiddenHeight" />
+<input type="hidden" value='970' class="HiddenWidth" />
+<input type="hidden" value='#FFFFFF' class="HiddenBGcolor" />
+<input type="hidden" value='1' class="HiddenIsFull" />
+
+
+<div class="Bannermb22">
+</div>
+<div id="ctl00_MainContent_BannersControl_Full76_rptBanners_ctl00_scriptDiv" class="ScriptDiv BannersMain u-marginAuto ad_unit_height17">
+<div class="textalignC u-relative u-marginAuto d-table w-100 h-100">
+<div class="textalignC u-relative u-marginAuto d-table-cell align-middle">
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/22102825221/Latest_News/Latest_news_LB_2', [[728, 90], [970, 250], [320, 100]], 'div-gpt-ad-1673029086444-01852').setTargeting('Category', ['latestnews']).setTargeting('LANG', ['en']).addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script>
+<!-- /22102825221/Latest_News/Latest_news_LB_2 -->
+<div id='div-gpt-ad-1673029086444-01852' style='min-width: 320px; min-height: 90px;'>
+  <script>
+    googletag.cmd.push(function() { googletag.display('div-gpt-ad-1673029086444-01852'); });
+  </script>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<input name="ctl00$MainContent$BannersControl_Full76$hiddenscreenwidth" type="hidden" id="ctl00_MainContent_BannersControl_Full76_hiddenscreenwidth" value="640" />
+
+
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row MyMainDivFullWidth bg-color__light-color-lotion row-remove-from__loadmore u-margin0" data-classes="bg-color__light-color-lotion">
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 padding-t-lg-90 padding-t-md-60 padding-t-sm-60 padding-t-xs-60 floatL u-padding0" data-classes="padding-t-lg-90 padding-t-md-60 padding-t-sm-60 padding-t-xs-60">
+		<div class="row MyMainDiv1470 row-remove-from__loadmore u-margin0">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 floatL u-padding0">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row MyMainDiv1430 row-remove-from__loadmore u-margin0">
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 floatL u-padding0">
+	</div>
+</div>
+<div class="row row-remove-from__loadmore MyMainDivFullWidth u-margin0">
+	<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 padding-t-xs-30 floatL u-padding0" data-classes="padding-t-xs-30">
+		<div class="row MyMainDivFullWidth bg-color__light-color-lotion row-remove-from__loadmore u-margin0" data-classes="bg-color__light-color-lotion">
+			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 floatL u-padding0">
+				<div class="row row-remove-from__loadmore MyMainDiv1470 prevent-flex-direction-change u-margin0" data-classes="prevent-flex-direction-change">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 floatL u-padding0">
+						<div class="row MyMainDiv1430 row-remove-from__loadmore u-margin0">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 padding-b-xs-20 floatL u-padding0" data-classes="padding-b-xs-20">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div>
+    
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="3232777E" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABZndRGR9BOPTqo6fOq9vPckOENYybtUpl+McuLdHqF/YMCkaIvbSejOIVw3tgyB+2TX6x4vKxZkachiCLD39PbRpL3vmkJnu70OqZeXQRxIA9qiqaPxqaNpXjGNp/6TR6xHYVq8J/+Jlqrx6j/rmHFu3MjOwepkcvakLTrW8bwgBBYkb2siycQ+W/An/lkywW4tjakWrXbrOfeUd3IM1IibPT3v8rKffP53aInKG1sC6lC3sRPMcl/FGNX6koYAYtiMIDQF3gJZofxWlB5mkCNk2Jf+6jSWUpCTI1LnNXp0ta3R2sYqV7Xm/mqRFJ65WQikZ1IK4Gd8G6E0TTF/u/OM88vxVADxzeUDnif+9gx4LUWoushAFijo+DKzDRYv/GtNN7MhYidoNZfZWD462V+L1pCaGLt5OcUqk1AY8dH70+YoBybur13cjakXd8EERt7BkSuVx+XmztkIGyzWMPYeMa8xWDS6HS+EhmlAkwNN5eUzGE5eoRYEkBZ6SuRIfkE=" />
+</div></form>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9a0280940e5d708c',t:'MTc2MzQxNjg0MA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
