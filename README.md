@@ -13,6 +13,14 @@ Our solution addresses this pressing issue through an AI-powered fact-checking s
 
 ## Installation Instrunctions:
 - Go to /backend/secrets.env.example and fill out the API links provided in the Moodle Submission Page Comments
+- Execute the following command from the project root folder
+  ```
+  python -m pip download -r requirements.txt -d backend/wheels ^
+  --platform manylinux2014_x86_64 ^
+  --python-version 3.11 ^
+  --implementation cp ^
+  --abi cp311 ^
+  --only-binary=:all:```
 - Execute `docker-compose build`
 - Run the application with `docker-compose up`. This will start the backend API and load environment variables automatically from secrets.env
 - Access our application with `http://localhost:8000` 
