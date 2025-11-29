@@ -12,7 +12,7 @@ In today's rapidly evolving digital landscape, the proliferation of news sources
 Our solution addresses this pressing issue through an AI-powered fact-checking system that analyzes news articles against multiple sources from the same time period as the article being examined. By leveraging GPT-3.5's advanced natural language processing capabilities, the system extracts key factual claims from any given article and cross-references them against similar reporting from other outlets, providing clear verification scores and confidence levels for each claim. This approach delivers rapid, cost-effective fact-checking at approximately $0.06 per analysis, empowering readers to make informed decisions about the news they consume while combating the spread of misinformation at scale.
 
 ## Installation Instructions:
-- Go to /backend/secrets.env.example and fill out the API links provided in the Moodle Submission Page Comments
+- Go to /backend/secrets.env.example and fill out the API links provided in the Moodle Submission Page Comments. Then remove the .example suffix.
 - Execute the following command from the project root folder
   ```
   python -m pip download -r requirements.txt -d backend/wheels ^
