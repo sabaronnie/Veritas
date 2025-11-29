@@ -1,0 +1,34 @@
+version: '3.8'
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    image: veritas-backend:latest
+    env_file:
+      - backend/secrets.env
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./:/app:cached
+    depends_on:
+      - mongo
+
+  frontend:
+    build:
+      context: website
+      dockerfile: Dockerfile
+    image: veritas-frontend:latest
+    ports:
+      - "8000:80"
+    depends_on:
+      - backend
+
+  mongo:
+    image: mongo:6.0
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

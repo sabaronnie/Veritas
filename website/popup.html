@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veritas – Article Analysis Results</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'veritas-blue': '#2D3561',
+                        'veritas-teal': '#00B4A6',
+                        'veritas-coral': '#FF6B6B',
+                        'veritas-sand': '#F7F5F2',
+                        'veritas-green': '#4CAF50',
+                        'veritas-yellow': '#FFC107',
+                        'veritas-red': '#E53935'
+                    }
+                }
+            }
+        };
+    </script>
+</head>
+
+<body class="bg-veritas-sand min-h-screen text-veritas-blue">
+
+    <!-- Header -->
+    <header class="bg-veritas-blue text-white p-6 shadow-md mb-8">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-3xl font-bold">Veritas Analysis Results</h1>
+            <p class="opacity-80">AI-powered fact comparison across Lebanese media</p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6">
+
+        <!-- ============================== -->
+        <!--        ARTICLE METADATA        -->
+        <!-- ============================== -->
+
+        <section class="mb-10 p-6 bg-white rounded-2xl shadow">
+            <h2 class="text-2xl font-semibold mb-4">Article Details</h2>
+
+            <!-- Hardcoded demo (dynamic JS will replace these IDs) -->
+            <p><span class="font-semibold">Source:</span> <span id="article-source">LBCI</span></p>
+            <p><span class="font-semibold">Published:</span> <span id="article-date">2025-11-22</span></p>
+            <p class="mt-2"><span class="font-semibold">Title:</span></p>
+            <p id="article-title" class="text-lg italic">
+                “Fly Beirut: New Airline Launched”
+            </p>
+        </section>
+
+        <!-- ============================== -->
+        <!--           CLAIM CARDS          -->
+        <!-- ============================== -->
+
+        <section>
+            <h2 class="text-2xl font-semibold mb-6">Claim Analysis</h2>
+
+            <!-- Claims container (JS will inject real data here) -->
+            <div id="claims-container" class="space-y-6">
+
+                <!-- ========================================== -->
+                <!--         DEMO CLAIM #1 (STATIC SAMPLE)       -->
+                <!-- ========================================== -->
+                <div class="bg-white p-6 rounded-2xl shadow">
+                    <h3 class="text-xl font-semibold">Claim 1</h3>
+                    <p class="mt-2 text-gray-700">
+                        <span class="font-semibold">Text:</span>
+                        Israel launched a series of airstrikes in South Lebanon.
+                    </p>
+
+                    <!-- Verdict Badge -->
+                    <div class="mt-4">
+                        <span
+                            class="px-3 py-1 text-sm rounded-full bg-veritas-green text-white font-semibold">
+                            SAME
+                        </span>
+                    </div>
+
+                    <!-- Supporting claims -->
+                    <div class="mt-6">
+                        <h4 class="font-semibold text-gray-800">Supporting Evidence</h4>
+                        <ul class="list-disc ml-6 text-gray-700 mt-2">
+                            <li>Quds News (2025-11-22) reported identical airstrike timeline.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Contradictions -->
+                    <div class="mt-6">
+                        <h4 class="font-semibold text-gray-800">Contradictions</h4>
+                        <p class="text-gray-600 italic">None found.</p>
+                    </div>
+
+                    <!-- Collapsible details -->
+                    <button onclick="toggleDetails('details1')"
+                        class="mt-6 text-veritas-blue underline font-semibold">
+                        View match details
+                    </button>
+
+                    <div id="details1" class="hidden mt-4 bg-gray-50 p-4 rounded-lg">
+                        <p><strong>Hybrid Score:</strong> 0.87</p>
+                        <p><strong>Vector Score:</strong> 0.91</p>
+                        <p><strong>NLI:</strong> entailment</p>
+                        <p class="mt-3 text-sm text-gray-600">Token similarity, field overlap, and character match
+                            indicate high alignment.</p>
+                    </div>
+                </div>
+
+                <!-- ========================================== -->
+                <!--         DEMO CLAIM #2 (STATIC SAMPLE)       -->
+                <!-- ========================================== -->
+                <div class="bg-white p-6 rounded-2xl shadow">
+                    <h3 class="text-xl font-semibold">Claim 2</h3>
+
+                    <p class="mt-2 text-gray-700">
+                        <span class="font-semibold">Text:</span>
+                        Five people were injured in the Shaqra strike.
+                    </p>
+
+                    <div class="mt-4">
+                        <span class="px-3 py-1 text-sm rounded-full bg-veritas-red text-white font-semibold">
+                            CONTRADICTION
+                        </span>
+                    </div>
+
+                    <div class="mt-6">
+                        <h4 class="font-semibold text-gray-800">Contradicting Evidence</h4>
+                        <ul class="list-disc ml-6 text-gray-700 mt-2">
+                            <li>Al-Manar reported that zero casualties occurred in Shaqra.</li>
+                        </ul>
+                    </div>
+
+                    <button onclick="toggleDetails('details2')"
+                        class="mt-6 text-veritas-blue underline font-semibold">
+                        View match details
+                    </button>
+
+                    <div id="details2" class="hidden mt-4 bg-gray-50 p-4 rounded-lg">
+                        <p><strong>Hybrid Score:</strong> 0.42</p>
+                        <p><strong>Vector Score:</strong> 0.31</p>
+                        <p><strong>NLI:</strong> contradiction</p>
+                        <p class="mt-3 text-sm text-gray-600">
+                            Embedding similarity moderate but NLI contradiction strong.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- JS WILL INJECT REAL CLAIMS HERE -->
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Toggle match detail boxes
+        function toggleDetails(id) {
+            const el = document.getElementById(id);
+            el.classList.toggle("hidden");
+        }
+
+        // ===============================
+        // Placeholder for dynamic injection
+        // Use this function once API returns real data
+        // ===============================
+        function renderRealResults(data) {
+            const container = document.getElementById("claims-container");
+            container.innerHTML = ""; // Clear demo content
+
+            data.forEach((claim, index) => {
+                const verdictColor =
+                    claim.verdict === "SAME" ? "bg-veritas-green" :
+                        claim.verdict === "CONTRADICTION" ? "bg-veritas-red" :
+                            "bg-veritas-yellow";
+
+                const block = `
+                <div class="bg-white p-6 rounded-2xl shadow">
+                    <h3 class="text-xl font-semibold">Claim ${index + 1}</h3>
+                    <p class="mt-2 text-gray-700">
+                        <span class="font-semibold">Text:</span>
+                        ${claim.text}
+                    </p>
+
+                    <div class="mt-4">
+                        <span class="px-3 py-1 text-sm rounded-full text-white font-semibold ${verdictColor}">
+                            ${claim.verdict}
+                        </span>
+                    </div>
+                </div>`;
+
+                container.innerHTML += block;
+            });
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veritas - Truth in Lebanese News</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'veritas-blue': '#2D3561',
+                        'veritas-teal': '#00B4A6',
+                        'veritas-coral': '#FF6B6B',
+                        'veritas-sand': '#F7F5F2',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .glow {
+            box-shadow: 0 0 30px rgba(0, 180, 166, 0.15);
+        }
+        
+        .animate-float {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .claim-card {
+            transition: all 0.3s ease;
+        }
+        
+        .claim-card:hover {
+            transform: translateX(5px);
+        }
+        
+        .progress-ring {
+            transform: rotate(-90deg);
+        }
+    </style>
+</head>
+<body class="bg-veritas-sand">
+    
+    <!-- Floating Header -->
+    <nav class="fixed top-0 w-full z-50 py-4">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="glass rounded-2xl px-6 py-4 glow">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 bg-gradient-to-br from-veritas-teal to-veritas-blue rounded-xl flex items-center justify-center transform rotate-12">
+                            <svg class="w-6 h-6 text-white transform -rotate-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold text-veritas-blue">Veritas</h1>
+                            <p class="text-xs text-gray-500">Truth through comparison</p>
+                        </div>
+                    </div>
+                    <!-- Top nav Analyze button removed; use the main Analyze control in the hero section -->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="pt-32 pb-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            
+            <!-- Footer CTA -->
+            <div class="text-center bg-gradient-to-br from-veritas-blue to-veritas-teal rounded-3xl p-12 text-white mb-12">
+                <h3 class="text-3xl font-bold mb-3">Analyze your own article</h3>
+                <p class="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
+                    Paste any Lebanese news URL and see how different outlets report the same story
+                </p>
+                <div class="flex max-w-2xl mx-auto gap-3 items-center">
+                    <input 
+                        id="articleUrl"
+                        type="text" 
+                        placeholder="https://example-news.com/article"
+                        class="flex-1 px-6 py-4 rounded-2xl text-gray-900 focus:outline-none focus:ring-2 focus:ring-white/50"
+                    />
+                    <button id="checkButton" class="px-8 py-4 bg-white text-veritas-blue rounded-2xl font-semibold hover:bg-gray-100 transition">
+                        Analyze
+                    </button>
+                    <button id="settingsToggle" title="Sources & options" class="ml-2 px-3 py-2 bg-white/80 rounded-lg text-sm">
+                        ⚙️
+                    </button>
+                </div>
+                <div id="settingsPanel" class="max-w-2xl mx-auto mt-3 p-4 bg-white rounded-2xl shadow-sm hidden">
+                    <div class="text-sm text-gray-600 mb-2">Select sources to include in the comparison</div>
+                    <div id="sourcesGrid" class="flex gap-3 flex-wrap"></div>
+                    <div class="mt-3 text-sm text-gray-600">
+                        <label class="inline-flex items-center gap-2">
+                            <input id="useSampleToggle" type="checkbox" class="rounded"> <span>Use sample data (website/analysis.json)</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <div class="mb-12 text-center">
+                <div class="inline-block mb-4">
+                    <span id="analyzingBadge" class="px-4 py-2 bg-white rounded-full text-sm font-medium text-veritas-blue border border-gray-200">
+                        Analyzing: Article
+                    </span>
+                </div>
+                <h2 id="heroTitle" class="text-4xl md:text-5xl font-bold text-veritas-blue mb-4 leading-tight">
+                    <!-- dynamic title will be injected here -->
+                </h2>
+                <p id="heroMeta" class="text-gray-500 text-lg">&nbsp;</p>
+            </div>
+
+            <!-- How We Verified -->
+            <div class="mb-12 bg-white rounded-3xl p-8 shadow-sm">
+                <h3 class="text-sm uppercase tracking-wider text-gray-400 mb-6 font-semibold">How we verified this</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-veritas-teal/10 to-veritas-blue/10 rounded-2xl flex items-center justify-center">
+                            <span class="text-3xl">🧠</span>
+                        </div>
+                        <h4 class="font-semibold text-veritas-blue mb-2">Extract Claims</h4>
+                        <p class="text-sm text-gray-500">AI breaks down the article into verifiable facts</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-veritas-teal/10 to-veritas-blue/10 rounded-2xl flex items-center justify-center">
+                            <span class="text-3xl">🔍</span>
+                        </div>
+                        <h4 class="font-semibold text-veritas-blue mb-2">Search Database</h4>
+                        <p class="text-sm text-gray-500">Compare against 10,000+ Lebanese articles</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-veritas-teal/10 to-veritas-blue/10 rounded-2xl flex items-center justify-center">
+                            <span class="text-3xl">⚖️</span>
+                        </div>
+                        <h4 class="font-semibold text-veritas-blue mb-2">Cross-Check</h4>
+                        <p class="text-sm text-gray-500">When opposing outlets agree, it's reliable</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trust Score (static boxes removed) - dynamic summary cards will be injected by script.js -->
+
+            <!-- Claims Analysis -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold text-veritas-blue mb-2">What we found</h3>
+                <p class="text-gray-500 mb-8">Comparing claims across Lebanese news outlets</p>
+
+                <!-- Error and Results (used by website/script.js) -->
+                <div id="errorSection" class="max-w-6xl mx-auto mb-6 hidden">
+                    <div id="errorMessage" class="p-4 bg-red-50 text-red-800 rounded-xl border border-red-100"></div>
+                </div>
+
+                <div id="resultsSection" class="max-w-6xl mx-auto mb-6">
+                                <div id="backendStatus" class="mb-2 text-sm text-gray-600"></div>
+                                <div id="articleInfo" class="mb-4 text-sm text-gray-600"></div>
+                    <div id="summaryContainer" class="mb-6"></div>
+                    <div id="statsContainer" class="grid grid-cols-1 md:grid-cols-5 gap-4 mb-6"></div>
+                    <!-- Bias analysis block injected here by script.js -->
+                    <div id="biasContainer" class="mb-6"></div>
+                    <div class="mb-2 text-gray-500"><span id="claimsCount">0 Claims Found</span></div>
+                    <div id="claimsContainer" class="space-y-4"></div>
+                </div>
+
+                <!-- Dynamic content will be rendered into resultsSection by script.js after Analyze -->
+            </div>
+
+        </div>
+    </div>
+
+    <!-- analysis.json inline loader removed: page will remain blank until Analyze is pressed -->
+
+    <!-- Floating Background Elements -->
+    <div class="fixed top-20 right-10 w-64 h-64 bg-veritas-teal/5 rounded-full blur-3xl animate-float"></div>
+    <div class="fixed bottom-20 left-10 w-96 h-96 bg-veritas-blue/5 rounded-full blur-3xl animate-float" style="animation-delay: 1s;"></div>
+
+    <!-- App script -->
+    <script src="script.js"></script>
+
+</body>
+</html>

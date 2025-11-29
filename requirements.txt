@@ -1,0 +1,16 @@
+openai
+
+# Backend runtime requirements (these are installed into the backend image)
+fastapi
+uvicorn==0.38.0
+python-dotenv
+pymongo
+requests
+trafilatura
+beautifulsoup4
+lxml
+aiohttp
+pydantic>=2.5.0
+scikit-learn
+
+

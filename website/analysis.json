@@ -1,0 +1,194 @@
+{
+  "article": {
+    "title": "Lebanese army dismantling Hezbollah caches, tunnels in the south",
+    "source": "www.newarab.com",
+    "timestamp": "2025-11-29T00:34:02+00:00"
+  },
+  "claims": [
+    {
+      "text": "The Lebanese army has intensified its presence along the border with Israel since the 2024 ceasefire, deploying nearly 10,000 troops and closing 11 crossing points along the Litani River.",
+      "matches": [
+        {
+          "source": "MTV",
+          "text": "Army Releases Figures on Weapons-Containment Plan",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.95,
+          "timestamp": "2025-11-28T11:13:00Z"
+        }
+      ]
+    },
+    {
+      "text": "Since the ceasefire, the Lebanese army has boosted its presence to nearly 10,000 troops, closed 11 crossing points, and is dealing with huge amounts of unexploded ordnance.",
+      "matches": [
+        {
+          "source": "MTV",
+          "text": "Army Releases Figures on Weapons-Containment Plan",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.95,
+          "timestamp": "2025-11-28T11:13:00Z"
+        }
+      ]
+    },
+    {
+      "text": "Lebanese soldiers are now present in areas where Hezbollah previously had a heavy military presence.",
+      "matches": [
+        {
+          "source": "LBC",
+          "text": "Lebanese army uncovers tunnel with living facilities in southern border sweep - the details",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.93,
+          "timestamp": "2025-11-28T18:05:00.000000Z"
+        }
+      ]
+    },
+    {
+      "text": "Israel has carried out almost daily airstrikes since the November 27, 2024 ceasefire, mainly targeting Hezbollah, but also killing 127 civilians according to the UN.",
+      "matches": [
+        {
+          "source": "LBC",
+          "text": "A fragile agreement: One year after the Lebanon-Israel ceasefire deal",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.88,
+          "timestamp": "2025-11-26T18:10:00.000000Z"
+        }
+      ]
+    },
+    {
+      "text": "Israeli troops occupy five hills along the border in south Lebanon, fortifying positions despite the ceasefire.",
+      "matches": [
+        {
+          "source": "LBC",
+          "text": "Lebanon files complaint to UN Security Council over Israel's construction of two concrete walls inside Lebanese territory",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.95,
+          "timestamp": "2025-11-28T12:24:00.000000Z"
+        }
+      ]
+    },
+    {
+      "text": "Hezbollah claims it no longer has an armed presence south of the Litani River, close to the border.",
+      "matches": [
+        {
+          "source": "LBC",
+          "text": "Lebanese army uncovers tunnel with living facilities in southern border sweep - the details",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.84,
+          "timestamp": "2025-11-28T18:05:00.000000Z"
+        }
+      ]
+    },
+    {
+      "text": "Hezbollah refuses to discuss full disarmament until Israel stops attacks, withdraws from the five hilltop points, and releases prisoners captured during and after the fighting.",
+      "matches": [
+        {
+          "source": "LBC",
+          "text": "Hezbollah's chief vows to respond after Tabtabai assassination, warns against Israeli pressure",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.92,
+          "timestamp": "2025-11-28T17:37:00.000000Z"
+        }
+      ]
+    },
+    {
+      "text": "Earlier this year, the Lebanese government voted in favour of a U.S.-backed plan to disarm Hezbollah, which the group strongly rejected.",
+      "matches": [
+        {
+          "source": "LBC",
+          "text": "Hezbollah's chief vows to respond after Tabtabai assassination, warns against Israeli pressure",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.91,
+          "timestamp": "2025-11-28T17:37:00.000000Z"
+        }
+      ]
+    },
+    {
+      "text": "Israel claims Hezbollah is rebuilding its capabilities in south Lebanon and accuses the Lebanese army of not doing enough to disarm the group.",
+      "matches": [
+        {
+          "source": "LBC",
+          "text": "New warnings emerge: Israel threatens major operation in Lebanon if Hezbollah keeps its weapons",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.93,
+          "timestamp": "2025-11-26T18:00:00.000000Z"
+        }
+      ]
+    },
+    {
+      "text": "Army officers say there have been 5,198 violations by Israel since the ceasefire, including 657 airstrikes.",
+      "matches": [
+        {
+          "source": "LBC",
+          "text": "A fragile agreement: One year after the Lebanon-Israel ceasefire deal",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.87,
+          "timestamp": "2025-11-26T18:10:00.000000Z"
+        }
+      ]
+    },
+    {
+      "text": "The Lebanese army now has 200 posts south of the Litani River, 29 fixed checkpoints, operates patrols around the clock.",
+      "matches": [
+        {
+          "source": "LBC",
+          "text": "Lebanese army uncovers tunnel with living facilities in southern border sweep - the details",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.95,
+          "timestamp": "2025-11-28T18:05:00.000000Z"
+        }
+      ]
+    },
+    {
+      "text": "After the government's decision to disarm Hezbollah on 5 September, troops have discovered 74 tunnels, 175 rocket launchers and 58 missiles.",
+      "matches": [
+        {
+          "source": "MTV",
+          "text": "Army Releases Figures on Weapons-Containment Plan",
+          "similarity": null,
+          "nli_verdict": "neutral",
+          "nli_confidence": 0.75,
+          "timestamp": "2025-11-28T11:13:00Z"
+        }
+      ]
+    },
+    {
+      "text": "The army does not enter homes to search them without a judicial order and only does so if illegal activity is witnessed as it takes place.",
+      "matches": [
+        {
+          "source": "LBC",
+          "text": "Lebanese army uncovers tunnel with living facilities in southern border sweep - the details",
+          "similarity": null,
+          "nli_verdict": "entailment",
+          "nli_confidence": 0.96,
+          "timestamp": "2025-11-28T18:05:00.000000Z"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "total_claims": 13,
+    "verified_claims": 12,
+    "disputed_claims": 0,
+    "avg_confidence": 0.9069230769230768,
+    "sources_used": 2,
+    "agreement_pct": null,
+    "overall_bias_score": 0.4
+  },
+  "bias": {
+    "framing_bias": "The article frames the Lebanese army's actions as proactive, orderly, and focused on disarmament and security, highlighting the army's efforts while foregrounding Israeli violations and ongoing occupation.",
+    "omission_bias": "The article does not include Israeli or Western government perspectives or detailed criticism of Hezbollah, focusing primarily on official Lebanese army and UN sources.",
+    "emotional_language": "Language is mostly factual with some terms like 'huge amounts' (ordnance) and 'major sacrifices,' as well as reference to danger and destruction, but avoids sensationalism.",
+    "source_bias": "The New Arab is generally perceived as pro-Arab and may present Lebanese and Palestinian narratives in a more favorable light, while being critical of Israeli military policy.",
+    "overall_bias_score": 0.4
+  }
+}
