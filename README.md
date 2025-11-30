@@ -9,7 +9,7 @@ Final Approach: API-based fact-checking using OpenAI GPT-4
 ## What We Built
 In today's rapidly evolving digital landscape, the proliferation of news sources and the exponential spread of information have created a critical challenge: distinguishing factual reporting from misinformation. This problem is particularly acute in regions like Lebanon, where multiple media outlets often present conflicting narratives about the same events, leaving citizens confused and struggling to identify objective truth. 
 
-Our solution addresses this pressing issue through an AI-powered fact-checking system that analyzes news articles against multiple sources from the same time period as the article being examined. By leveraging GPT-3.5's advanced natural language processing capabilities, the system extracts key factual claims from any given article and cross-references them against similar reporting from other outlets, providing clear verification scores and confidence levels for each claim. This approach delivers rapid, cost-effective fact-checking at approximately $0.06 per analysis, empowering readers to make informed decisions about the news they consume while combating the spread of misinformation at scale.
+Our solution addresses this pressing issue through an AI-powered fact-checking system that analyzes news articles against multiple sources from the same time period as the article being examined, checks similar claims and clearing out the truth. 
 
 ## Installation Instructions:
 - Go to /backend/secrets.env.example and fill out the API links provided in the Moodle Submission Page Comments. Then remove the .example suffix.
