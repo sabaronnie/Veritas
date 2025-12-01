@@ -236,7 +236,7 @@ def scrape_mtv(MAX_AGE, MTV_API, PAGE_SIZE=1):
         for item in data:
             # Build full URL
             full_url = "https://www.mtv.com.lb" + item.get("Url", "")
-            published_at = item.get("publishDate") + "Z"
+            published_at = item.get("publishDate")
             published_at = parse_timestamp(published_at, source)
             scraped_at = datetime.utcnow().isoformat() + "Z"
 
