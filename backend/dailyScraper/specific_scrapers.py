@@ -209,7 +209,7 @@ def scrape_lbc_article(url):
 def scrape_mtv(MAX_AGE, MTV_API, PAGE_SIZE=1):
     start = 0
     end = PAGE_SIZE
-
+    source = "MTV"
     print("\n============== MTV SCRAPER START ==============\n")
     article = []
     while True:
@@ -237,6 +237,7 @@ def scrape_mtv(MAX_AGE, MTV_API, PAGE_SIZE=1):
             # Build full URL
             full_url = "https://www.mtv.com.lb" + item.get("Url", "")
             published_at = item.get("publishDate") + "Z"
+            published_at = parse_timestamp(published_at, source)
             scraped_at = datetime.utcnow().isoformat() + "Z"
 
             # Stop if article older than threshold
